@@ -1082,6 +1082,8 @@ static void clipit_init() {
 
 /* This is Sparta! */
 int main(int argc, char **argv) {
+
+  gdk_set_allowed_backends("x11");
 	bindtextdomain(GETTEXT_PACKAGE, CLIPITLOCALEDIR);
 	bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
 	textdomain(GETTEXT_PACKAGE);
