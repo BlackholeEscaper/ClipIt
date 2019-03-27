@@ -33,7 +33,7 @@
 #include <X11/Xutil.h>
 #include <X11/keysym.h>
 #ifdef HAVE_APPINDICATOR
-#include <libayatana-appindicator/app-indicator.h>
+#include <libappindicator/app-indicator.h>
 #endif
 #include "main.h"
 #include "utils.h"
